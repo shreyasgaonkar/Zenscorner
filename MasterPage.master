@@ -4,34 +4,75 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png" />
-    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
-    <link rel="manifest" href="/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title>Home - Shreyas Gaonkar</title>
+    <meta name="description" content="Shreyas Gaonkar website - Portfolio">
+    <link href="shreyasgaonkar.ico" rel="icon" type="image/x-icon" />
+
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <!-- myCSS -->
+    <link href="includes/css/styles.css" rel="stylesheet">
+
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
+    
     <div>
+        <div class="container" id="main">
+        <div class="navbar navbar-fixed-top">
+            <!--Nav bar will stick to the top-->
+            <div class="container">
+
+                <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+
+                <a class="navbar-brand" href="/"><img src="images/test-logo.png" alt="Shreyas Gaonkar logo"/></a>
+
+                <div class="nav-collapse collapse navbar-responsive-collapse pull-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="index.html"><span class="glyphicon glyphicon-home"> Home</span></a>
+                        </li>
+                       <li>
+                           <a href="#/">Blog</a>
+                       </li>
+                         <li>
+                           <a href="#/">About</a>
+                       </li>
+                         <li>
+                           <a href="#/">Contact</a>
+                       </li>
+                        
+                        
+                    </ul>
+
+                    <form class="navbar-form pull-left">
+                        <input type="text" class="form-control" placeholder="Search this site.." id="searchInput" />
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search "></span></button>
+                    </form>
+                    
+                </div><!--end NavCollapse-->
+            </div>
+        </div><!--End Nav Div-->
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
-    </form>
+   
 </body>
 </html>
