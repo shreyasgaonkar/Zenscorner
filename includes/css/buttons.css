@@ -1,0 +1,45 @@
+﻿/*Buttons*/
+.btn-mote-register {
+    background: #7F56C6;
+    color: #FFF;
+    padding: 14px 24px;
+    border: 0 none;
+    width: 150px;
+}
+.btn-mote-register:visited {
+    background: #7F56C6;
+}
+
+.btn-mote-register:hover {
+    background: #7F56C6;
+}
+
+.btn-mote-register:active {
+    background: #552BDF;
+}
+
+.btn-mote-login {
+    background: #FFF;
+    color: #7F56C6;
+    padding: 14px 24px;
+    border: 1px solid #CCCCCC;
+    width: 150px;
+}
+
+.btn-mote-login:hover {
+    background: #FFF;
+    color: #7F56C6;
+    border: 1px solid #CCCCCC;
+}
+
+.btn-mote-login:visited {
+    background: #FFF;
+    color: #7F56C6;
+    border: 1px solid #CCCCCC;
+}
+
+.btn-mote-login:active, .btn-mote-login:focus {
+    background: #FAFAFA;
+    color: #7F56C6;
+    border: 1px solid #CCCCCC;
+}

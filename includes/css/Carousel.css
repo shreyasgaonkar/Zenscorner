@@ -1,0 +1,44 @@
+﻿
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+    margin-top: 60px;
+}
+
+.carousel-caption {
+    font-size: 24px;
+}
+
+    .carousel-caption h4 {
+        font-size: 32px;
+    }
+
+#myCarousel .item {
+    height: 400px;
+}
+
+.hideme {
+    opacity: 0;
+}
+
+#JoinUs {
+    text-align: left;
+}
+
+#slide1 {
+    background: url('../../images/carousel_medium_01.jpg') top center no-repeat;
+}
+
+#slide2 {
+    background: url('../../images/carousel_medium_04.jpg') top center no-repeat;
+}
+
+#slide3 {
+    background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
+}
+
+#slid4 {
+    background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
+}
