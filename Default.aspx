@@ -50,7 +50,7 @@
                 <!-- end Section-1 -->
             </div>
             <!-- End Blog Section -->
-
+            <!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
             <!-- Side Bar -->
             <div class="col-lg-3 col-md-3 col-sm-3 hidden-on-mobile sidebar well">
                 <div class="page-header">

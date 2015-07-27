@@ -7,21 +7,40 @@
 
     <!-- Website Title & Description for Search Engine purposes -->
     <title>Home - Shreyas Gaonkar</title>
-    <meta name="description" content="Shreyas Gaonkar website - Portfolio">
+    <meta name="description" content="Shreyas Gaonkar website - Portfolio" />
     <link href="shreyasgaonkar.ico" rel="icon" type="image/x-icon" />
 
     <!-- Mobile viewport optimized -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <!-- Bootstrap CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet" />
 
     <!-- myCSS -->
-    <link href="includes/css/styles.css" rel="stylesheet">
+    <link href="includes/css/styles.css" rel="stylesheet" />
 
     <!-- Include Modernizr in the head, before any other Javascript -->
     <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -92,7 +111,7 @@
                 <div class="col-sm-2">
                     <h6>Navigation</h6>
                     <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Default.aspx">Home</a></li>
                         <li><a href="photos.aspx">Photos</a></li>
                         <li><a href="#">Links</a></li>
                         <li><a href="#">Contact</a></li>

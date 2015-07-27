@@ -11,6 +11,7 @@ html {
     color:black;
     background-color:#FFF;
     font-size:16px;
+    -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -40,7 +41,7 @@ a {
 }
 
 .section-content{
-    text-align:right;
+    text-align:justify;
 }
 
 
