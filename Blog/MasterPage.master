@@ -66,13 +66,13 @@
                     </button>
 
                     <a class="navbar-brand" href="../Default.aspx">
-                       <img src="~/images/logo.png" onmouseover="this.src = '~/images/logo1.png'" onmouseout="this.src = '~/images/logo.png'" alt="ZensCorner" />
+                       <img src="../images/logo.png" onmouseover="this.src = '../images/logo1.png'" onmouseout="this.src = '../images/logo.png'" alt="ZensCorner" />
                     </a>
 
                     <div class="nav-collapse collapse navbar-responsive-collapse pull-right">
                         <ul class="nav navbar-nav">
                             <li class="active">
-                                <a href="Default.aspx"><span class="glyphicon glyphicon-home"> Home</span></a>
+                                <a href="../Default.aspx"><span class="glyphicon glyphicon-home"> Home</span></a>
                             </li>
                             <li>
                                 <a href="Blog/Default.aspx">Blog</a>
