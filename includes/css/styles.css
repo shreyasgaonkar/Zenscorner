@@ -5,6 +5,8 @@
 /* --------------------------------------
   Basic  Layouts / Global Styles
    -------------------------------------- */
+
+
 html {
     height: 100%;
     overflow-x: hidden;
@@ -16,35 +18,77 @@ html {
 
 a {
     outline: none;
+    text-decoration:none;
+    color:inherit;
+}
+
+a:hover{
+    text-decoration:none;
 }
 
 .purple {
     color: #7F56C6;
 }
+.fadeout{
+    opacity:1;
+    font-size: 2vw; 
+}
+/* Home Page Sections */
 
+.puppy {
+    background-image: url('../../images/Logo/puppy.png');
+}
 .section-1{
     padding:25px;
     border:0;
     border-bottom:dashed;
-}
-
-.sidebar{
-    padding:25px;
-
-}
-.sidebar a{
-    color:inherit;
-    text-decoration:none;
-}
-.sidebar a:hover{
-    color:inherit;
+    font-size:larger;
+    position: relative;/*For centering the pic*/
 }
 
 .section-content{
     text-align:justify;
 }
 
+.sidebar{
+    padding:25px;
+    overflow:auto;
+}
+.sidebar a{
+    color:inherit;
+    text-decoration:none;
+}
+.sidebar a:hover{
+    color:#9E6A8E;
+    font-size:20px;
+}
 
+.blog-picture{
+    width:100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(0%);
+}
+
+.blog-header{
+    font-weight:700;
+    text-align:right;
+}
+.blog-header a:hover{
+    color:#9E6A8E;
+    
+}
+.blog-date{
+    font-weight:600;
+    text-align:right;
+}
+.blog-contents{
+    line-height:25px;
+}
+.read-ahead{
+    margin:10px 0 0 0;
+    float:right;
+}
 .time{
     font-size:18px;
 }
@@ -149,14 +193,15 @@ a {
   Background Image
    -------------------------------------- */
 .background-img {
-    height: 50vh;
-    /*display: flex;*/
+    height: 70vh;
+    display: flex;
     margin:50px 0 0 0;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items:center;
+    text-align:center;
     background-image: url('../../images/Logo/paws1.png');
-    background-size: contain;
+    background-size: cover;
     background-position: top center;
     background-attachment: fixed; /*For Parallex*/
     position: relative;
@@ -216,9 +261,9 @@ a {
 }
 /*Parallex*/
 .mote-landing-page {
-    height: 25%;
+    background-image: url('../../images/Logo/puppy.png');
     width: 100%;
-    background-image: url('../../images/mote-landing-page1.png');
+    height:200%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -491,7 +536,7 @@ ul {
 }
 
 .navbar-custom {
-    background-color: #7f56c6; /*Violet Color for Mote*/
+    background-color: #9E6A8E; /*Purpler Color*/
     color: #FAF9F4;
     border-radius: 0;
 }
@@ -505,7 +550,7 @@ ul {
 }
 
     .navbar-custom .navbar-nav > li > a:hover {
-        color: #C4ACED; /*Light Violet color for navbar hover*/
+        color: #D2BACA; /*Light Violet color for navbar hover*/
     }
 
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
@@ -731,14 +776,18 @@ Background Image
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
 
-    ul li {
-        display: inline;
-        padding: 10px 0;
-    }
-    .section-content{
+ul li {
+    display: inline;
+    padding: 10px 0;
+}
+
+.section-content{
     text-align:left;
 }
 
+.fadeout{
+    font-size: 20px; 
+}
 /* --------------------------------------
 Background Image
 -------------------------------------- */

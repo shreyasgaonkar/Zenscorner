@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Blog_MasterPage" %>
 
 <!DOCTYPE html>
 
@@ -12,37 +12,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <!-- Bootstrap CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/includes/css/bootstrap-glyphicons.css" rel="stylesheet" />
 
     <!-- Javascript -->
-    <script src="includes/js/script.js"></script>
+    <script src="~/includes/js/script.js"></script>
 
     <!-- myCSS -->
-    <link href="includes/css/styles.css" rel="stylesheet" />
+    <link href="~/includes/css/styles.css" rel="stylesheet" />
 
 
     <!-- SAAS -->
-    <link href="includes/css/StyleSheet.css" rel="stylesheet" />
+    <link href="~/includes/css/StyleSheet.css" rel="stylesheet" />
 
     <!-- Include Modernizr in the head, before any other Javascript -->
-    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+    <script src="~/includes/js/modernizr-2.6.2.min.js"></script>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="~/favicon/apple-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png" />
-    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
-    <link rel="manifest" href="/favicon/manifest.json" />
+    <link rel="apple-touch-icon" sizes="72x72" href="~/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="~/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="~/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="~/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="~/favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="~/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="~/favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192"  href="~/favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="~/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="~/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="~/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="~/favicon/manifest.json" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
@@ -65,8 +65,8 @@
 
                     </button>
 
-                    <a class="navbar-brand" href="Default.aspx">
-                       <img src="images/logo.png" onmouseover="this.src = 'images/logo1.png'" onmouseout="this.src = 'images/logo.png'" alt="ZensCorner" />
+                    <a class="navbar-brand" href="../Default.aspx">
+                       <img src="~/images/logo.png" onmouseover="this.src = '~/images/logo1.png'" onmouseout="this.src = '~/images/logo.png'" alt="ZensCorner" />
                     </a>
 
                     <div class="nav-collapse collapse navbar-responsive-collapse pull-right">

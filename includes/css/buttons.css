@@ -1,21 +1,22 @@
 ﻿/*Buttons*/
-.btn-mote-register {
-    background: #7F56C6;
+.btn-read-more {
+    background: #1ED760;
     color: #FFF;
+    font-weight:600;
     padding: 14px 24px;
     border: 0 none;
     width: 150px;
 }
-.btn-mote-register:visited {
-    background: #7F56C6;
+.btn-read-more:visited {
+    background: #1acd5a;
 }
 
-.btn-mote-register:hover {
-    background: #7F56C6;
+.btn-read-more:hover {
+    background: #1acd5a;
 }
 
-.btn-mote-register:active {
-    background: #552BDF;
+.btn-read-more:active {
+    background: #1acd5a;
 }
 
 .btn-mote-login {
