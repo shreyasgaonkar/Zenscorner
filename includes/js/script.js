@@ -5,6 +5,8 @@ $(window).scroll(function () {
 /*Fade on Scroll Ends*/
 
 
+
+
 //Get the height of the main image to parallax
 
 /*var pContainerHeight = $('.background-img').height();

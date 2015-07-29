@@ -1,6 +1,7 @@
 @import 'loading.css';
 @import 'buttons.css';
 @import 'Carousel.css';
+@import 'blog.css';
 
 /* --------------------------------------
   Basic  Layouts / Global Styles
@@ -770,6 +771,12 @@ Background Image
 @media (max-width: 750px) {
     .hidden-on-mobile {
         display: none;
+    }
+    
+}
+@media (min-width: 751px) {
+    .visible-on-mobile{
+        display:none;
     }
     
 }
