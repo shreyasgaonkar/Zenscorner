@@ -4,7 +4,16 @@ $(window).scroll(function () {
 });
 /*Fade on Scroll Ends*/
 
+/*Navbar Shrink*/
+height = screen.height;   // returns height of browser viewport
 
+$(window).scroll(function() {
+    if ($(document).scrollTop() > height/4) {
+        $('nav').addClass('shrink');
+    } else {
+        $('nav').removeClass('shrink');
+    }
+});
 
 
 //Get the height of the main image to parallax

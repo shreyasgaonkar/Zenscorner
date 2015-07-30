@@ -2,6 +2,7 @@
 @import 'buttons.css';
 @import 'Carousel.css';
 @import 'blog.css';
+@import 'animation.css';
 
 /* --------------------------------------
   Basic  Layouts / Global Styles
@@ -410,14 +411,6 @@ p {
 }
 
 footer {
-    /*width: 100%;
-    background: #333;
-    color: #EEE;
-    font-size: 11px;
-    padding: 20px;
-    text-align: left;
-    position:fixed;
-    bottom:0;*/
     background: black;
     color: white;
     padding: 40px 0;
