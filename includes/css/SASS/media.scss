@@ -16,6 +16,10 @@
     .login {
         margin-left: 47%;
     }
+
+    .blog-contents {
+        margin-left: 50px;
+    }
 }
 
 
@@ -23,12 +27,12 @@
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
 
-     /* Section-title */
+    /* Section-title */
     .section-title {
         font-size: 33px;
         border-bottom: 1px solid #f1eaea;
         padding: 0px 0 28px;
-        margin-top:-25px;
+        margin-top: -25px;
     }
 
     .section-title-hr {
@@ -54,7 +58,7 @@
     /* --------------------------------------
 Background Image
 -------------------------------------- */
-   
+
 
 
     /* --------------------------------------
@@ -70,17 +74,17 @@ Background Image
         font-size: 14px;
     }
 
-        .thumbnail .price sup {
-            font-size: 10px;
-        }
+    .thumbnail .price sup {
+        font-size: 10px;
+    }
 
     .thumbnail .price {
         font-size: 14px;
     }
 
-        .thumbnail .price sup {
-            font-size: 10px;
-        }
+    .thumbnail .price sup {
+        font-size: 10px;
+    }
 
     #content {
         font-size: 1.2em;
@@ -116,30 +120,29 @@ Background Image
     .hidden-on-mobile {
         display: none;
     }
-    
 }
+
 @media (min-width: 751px) {
-    .visible-on-mobile{
-        display:none;
+    .visible-on-mobile {
+        display: none;
     }
-    
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
 
-ul li {
-    display: inline;
-    padding: 10px 0;
-}
+    ul li {
+        display: inline;
+        padding: 10px 0;
+    }
 
-.section-content{
-    text-align:left;
-}
+    .section-content {
+        text-align: left;
+    }
 
-.fadeout{
-    font-size: 20px; 
-}
-/* --------------------------------------
+    .fadeout {
+        font-size: 20px;
+    }
+    /* --------------------------------------
 Background Image
 -------------------------------------- */
 
@@ -195,7 +198,7 @@ Background Image
         width: 100%;
         padding: 10px;
     }
-    
+
     .para {
         padding: 5% 5%;
     }
@@ -268,16 +271,16 @@ Background Image
         box-shadow: none;
     }
 
-        .navbar-collapse.collapse {
-            display: block !important;
-            height: auto !important;
-            padding-bottom: 0;
-            overflow: visible !important;
-        }
+    .navbar-collapse.collapse {
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+    }
 
-        .navbar-collapse.in {
-            overflow-y: visible;
-        }
+    .navbar-collapse.in {
+        overflow-y: visible;
+    }
 
     .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
         padding-left: 0;

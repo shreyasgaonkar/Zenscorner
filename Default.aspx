@@ -5,126 +5,99 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
-    <!-- 
-        <div id="loading">
-        <img id="loading-image" src="images/loading.gif" alt="Loading..." />
-    </div>
-        -->
-
     <div class="background-img">
         <div class="container">
             <div class="pull-left">
-                <img src="images/Logo/puppy.png" class="hidden-on-mobile"/>
-                <h1 class="fadeout">Catch heel Scooby snacks kitten fish ID tag. Bird Food whiskers feeder Fido fluffy Scooby snacks biscuit.</h1>
+                <img src="images/Logo/puppy.png" class="hidden-on-mobile" />
+                <h1 class="fadeout section-title">Catch heel Scooby snacks kitten fish ID tag. Bird Food whiskers feeder Fido fluffy Scooby snacks biscuit.</h1>
             </div>
         </div>
         <!-- end Background Img -->
     </div>
-
-    <div class="container">
-
-        <div class="row" style="margin-top: 50px;">
+    <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="row">
+        <div class="container">
             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 
-                <div class="section-1">
-                    <div class="row">
-                        <img src="images/350x350.jpg" class="pull-left hidden-on-mobile" />
-                        <div class="section-content">
-                            <h1 class="blog-header"><a href="#/" title="Link to the Blog Title">Blog Title</a> </h1>
-                            <h4 class="blog-date"><span class="glyphicon glyphicon-pencil"> July 27, 2015</span></h4>
-                            <div class="blog-contents">
-                                Ball sit lazy dog dog dragging park bird seed bird food bedding run tail.
-                                     Chew commands parakeet leash dinnertime cat Fido lick treats dog. Nest bird
-                                     nap bird seed bird food brush bark lol catz run fast. Vaccination throw Snowball
-                                     ferret Tigger parakeet vaccine head foot run. Foot fleas ferret furry string small 
-                                    animals turtle dog groom Fido fetch Tigger aquarium leash furry...
-                                <br />
-
-                                <div class="btn-group read-ahead">
-                                    <button type="button" class="btn btn-read-more" aria-haspopup="true" aria-expanded="false">
-                                        Read Ahead
-                                    </button>
-                                </div><!-- End btn -->
-                            </div><!-- End Blog Contents -->
-                        </div><!-- End Section-content -->
-                    </div><!-- End row -->
-                </div><!-- End Section-1 -->
-                <!-- Add next Section here -->
 
                 <div class="section-1">
-                    <div class="row">
-                        <img src="images/350x350.jpg" class="pull-left hidden-on-mobile" />
-                        <div class="section-content">
-                            <h1 class="blog-header"><a href="#/" title="Link to the Blog Title">Blog Title</a> </h1>
-                            <h4 class="blog-date">July 27, 2015</h4>
-                            <div class="blog-contents">
-                                Ball sit lazy dog dog dragging park bird seed bird food bedding run tail.
-                                     Chew commands parakeet leash dinnertime cat Fido lick treats dog. Nest bird
-                                     nap bird seed bird food brush bark lol catz run fast. Vaccination throw Snowball
-                                     ferret Tigger parakeet vaccine head foot run. Foot fleas ferret furry string small 
-                                    animals turtle dog groom Fido fetch Tigger aquarium leash furry...
-                                <br />
+                    <!-- Blog preview -->
+                    <div class="side-image">
+                        <div class="images-wrapper"></div>
+                        <div class="side-image-content">
+                            <h1>The Theory of Everything</h1>
+                            <h4>August 15, 2015</h4>
+                            <p>
+                                <strong>Stephen William Hawking </strong>was born on January 8, 1942 in Oxford, England. As a student at Oxford University, Hawking studied Physics,
+                                 and after three years was awarded a first class honors degree in Natural Science. After gaining a Ph.D. from Cambridge, Hawking became
+                                 a Research Fellow, and later on a Professional Fellow at Gonville and Caius College. Widely regarded as one of the greatest theoretical
+                                 physicists since Einstein, Hawking has held the post as Lucasian Professor of Mathematics at the University of Cambridge since 1979. 
+                            </p>
 
-                                <div class="btn-group read-ahead">
-                                    <button type="button" class="btn btn-read-more" aria-haspopup="true" aria-expanded="false">
-                                        Read Ahead
-                                    </button>
-                                </div><!-- End btn -->
-                            </div><!-- End Blog Contents -->
-                        </div><!-- End Section-content -->
-                    </div><!-- End row -->
-                </div><!-- End Section-1 -->
-                <!-- Add next Section here -->
+                            <div class="btn-group read-ahead">
+                                <button type="button" class="btn btn-read-more" aria-haspopup="true" aria-expanded="false">
+                                    Read Ahead</button>
+                            </div>
+                            <!-- End btn -->
 
-            </div><!-- End Left Blog Section -->
+                        </div>
+                    </div>
 
-            <!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
-            <!-- Side Bar -->
-            <div class="col-lg-3 col-md-3 col-sm-3 hidden-on-mobile sidebar well">
-                <div class="page-header">
-                    <h1>Contents</h1>
+                    <div class="side-image">
+                        <div class="images-wrapper" style="background-image: url(http://localhost:49327/images/steve-jobs.jpg)"></div>
+                        <div class="side-image-content">
+                            <h1>Steve Jobs</h1>
+                            <h4>October 5, 2011</h4>
+                            <p>
+                                <strong>Steven Paul "Steve" Jobs</strong> was an American pioneer of the personal computer
+                                 revolution of the 1970s (along with engineer, inventor, and Apple Computer co-founder, Steve Wozniak). Shortly after his death, 
+                                Jobs's official biographer, Walter Isaacson described him as the "creative entrepreneur whose passion for perfection and ferocious
+                                 drive revolutionized six industries: personal computers, animated movies, music, phones, tablet computing, and digital publishing."
+                            </p>
+
+                            <div class="btn-group read-ahead">
+                                <button type="button" class="btn btn-read-more" aria-haspopup="true" aria-expanded="false">
+                                    Read Ahead</button>
+                            </div>
+                            <!-- End btn -->
+
+                        </div>
+                    </div>
+
                 </div>
-                <!-- end page-header-->
-                <div class="time">
-                    <span class="glyphicon glyphicon-calendar"><a href="#/"> 2015</a></span>
+                <!-- end section-1 -->
+            </div>
+            <!-- end LHS -->
 
-                    <div class="year-2015">
-                        <a href="#/">January</a><br />
-                        <a href="#/">February</a><br />
-                        <a href="#/">March</a><br />
-                        <a href="#/">April</a><br />
-                        <a href="#/">May</a><br />
-                        <a href="#/">June</a><br />
-                        <a href="#/">July</a><br />
-                        <a href="#/">August</a><br />
-                        <a href="#/">September</a><br />
-                        <a href="#/">October</a><br />
-                        <a href="#/">November</a><br />
-                        <a href="#/">December</a><br />
+            <div class="col-lg-3 col-md-3 col-sm-3 hidden-on-mobile">
+                <div class="section-2">
+                    <div class="expander">
+                        <a href="javascript:void(0)" id="js-expander-trigger" class="expander-trigger expander-hidden">Contents</a>
+                        <div id="js-expander-content" class="expander-content">
+                            <ul class="month">
+                                <span class="year">2015</span>
+                                <li><a href="#/">January </a></li>
+                                <li><a href="#/">February </a></li>
+                                <li><a href="#/">March </a></li>
+                                <li><a href="#/">April </a></li>
+                                <li><a href="#/">May </a></li>
+                                <li><a href="#/">June </a></li>
+                                <li><a href="#/">July </a></li>
+                                <li><a href="#/">August </a></li>
+                                <li><a href="#/">September </a></li>
+                                <li><a href="#/">October </a></li>
+                                <li><a href="#/">November </a></li>
+                                <li><a href="#/">December </a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <!-- end Time -->
+                <!-- end RHS -->
             </div>
-            <!-- End sidebar -->
-            <div class="col-lg-3 col-md-3 col-sm-3 hidden-on-mobile sidebar well">
-                <div class="page-header">
-                    <h1>Featured</h1>
-                </div>
-                <!-- end page-header-->
-                <div class="time">
-                    <a href="#/">Article 1</a><br />
-                    <a href="#/">Article 2</a><br />
-                    <a href="#/">Article 3</a><br />
-
-                </div>
-
-                    
-            </div>
-            <!-- End sidebar -->
-
+            <!-- end section-2 -->
         </div>
-    <!-- End Row -->
+        <!-- end container -->
     </div>
-    <!-- End Contaainer -->
+    <!-- end row -->
 </asp:Content>
 

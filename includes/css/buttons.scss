@@ -1,0 +1,43 @@
+﻿/*Buttons*/
+$color1: #5abbc9;
+$color2: #3293c9;
+
+.btn-read-more {
+    background: $color1;
+    color: #FFF;
+    font-weight:600;
+    padding: 14px 24px;
+    border: 0 none;
+    width: 150px;
+    font-family:sans-serif;
+    //letter-spacing:0.65px;
+}
+.btn-read-more:visited,.btn-read-more:hover,.btn-read-more:active {
+    background: $color2;
+}
+
+.btn-mote-login {
+    background: #FFF;
+    color: #7F56C6;
+    padding: 14px 24px;
+    border: 1px solid #CCCCCC;
+    width: 150px;
+}
+
+.btn-mote-login:hover {
+    background: #FFF;
+    color: #7F56C6;
+    border: 1px solid #CCCCCC;
+}
+
+.btn-mote-login:visited {
+    background: #FFF;
+    color: #7F56C6;
+    border: 1px solid #CCCCCC;
+}
+
+.btn-mote-login:active, .btn-mote-login:focus {
+    background: #FAFAFA;
+    color: #7F56C6;
+    border: 1px solid #CCCCCC;
+}

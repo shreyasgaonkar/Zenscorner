@@ -18,7 +18,6 @@
     <!-- Javascript -->
     <script src="includes/js/script.js"></script>
 
-    
     <!-- myCSS -->
     <link href="includes/css/styles.css" rel="stylesheet" />
 
@@ -39,7 +38,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png" />
     <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png" />
-    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
@@ -55,7 +54,7 @@
 
     <div>
         <div class="container" id="main">
-            <div class="navbar navbar-fixed-top navbar-custom ">
+            <div class="navbar navbar-fixed-top navbar-custom">
                 <!--Nav bar will stick to the top-->
                 <div class="container">
 
@@ -66,31 +65,39 @@
 
                     </button>
 
-                    <a class="navbar-brand" href="Default.aspx">
-                       <img src="images/logo.png" onmouseover="this.src = 'images/logo1.png'" onmouseout="this.src = 'images/logo.png'" alt="ZensCorner" />
+                    <a class="navbar-brand" href="../Default.aspx">
+                        <img src="../images/logo.png" onmouseover="this.src = '../images/logo1.png'" onmouseout="this.src = '../images/logo.png'" alt="ZensCorner" />
                     </a>
 
                     <div class="nav-collapse collapse navbar-responsive-collapse pull-right">
                         <ul class="nav navbar-nav">
-                            <li class="active">
+                            <%-- <li class="active">
                                 <a href="Default.aspx"><span class="glyphicon glyphicon-home"> Home</span></a>
+                            </li>--%>
+                            <li>
+                                <a href="#/">About</a>
                             </li>
                             <li>
                                 <a href="Blog/Default.aspx">Blog</a>
                             </li>
                             <li>
-                                <a href="#/">About</a>
-                            </li>
-                            <li>
-                                <a href="#/">Contact</a>
+                                <a href="#/">Home Remedies</a>
                             </li>
                             <li>
                                 <a href="#/">Shop</a>
                             </li>
-
+                            <li>
+                                <a href="#/">Donate</a>
+                            </li>
+                            <li>
+                                <a href="#/">Photos</a>
+                            </li>
+                            <li>
+                                <a href="#/">Contact</a>
+                            </li>
 
                         </ul>
-                    <!--
+                        <!--
                         <form class="navbar-form pull-left">
                             <input type="text" class="form-control" placeholder="Search this site.." id="searchInput" />
                             <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search "></span></button>
@@ -101,72 +108,63 @@
                 </div>
             </div>
             <!--End Nav Div-->
-
-
         </div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
-            
-        <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-2">
-                    <h6>&copy; 2015 Shreyas Gaonkar</h6>
-                shreyas.gaonkar@yahoo.com
-                </div><!-- end col-sm-2-->
 
-                <div class="col-sm-4">
-                    <h6>About Me</h6>
-                    <p>Actively seeking Summer Internship opportunities in the field of Software Engineering</p>
-                </div><!-- end col-sm-4-->
+        <!-- Footer -->
+        <!--<div class="wrapper-for-content-outside-of-footer">
+   Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer
+</div>-->
 
-                <div class="col-sm-2">
-                    <h6>Navigation</h6>
-                    <ul class="list-unstyled">
-                        <li><a href="Default.aspx">Home</a></li>
-                        <li><a href="photos.aspx">Photos</a></li>
-                        <li><a href="#">Links</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div><!-- end col-sm-2-->
+        <footer class="footer-2" role="contentinfo">
+            <div class="footer-logo">
+                <img src="images/Logo/paw-white.png" alt="Logo" />
+            </div>
+            <ul>
+                <li><a href="javascript:void(0)">About</a></li>
+                <li><a href="javascript:void(0)">Blog</a></li>
+                <li><a href="javascript:void(0)">Home Remedies</a></li>
+                <li><a href="javascript:void(0)">Shop</a></li>
+                <li><a href="javascript:void(0)">Donate</a></li>
+                <li><a href="javascript:void(0)">Photos</a></li>
+                <li><a href="javascript:void(0)">Contact</a></li>
+                
+            </ul>
 
-                <div class="col-sm-2">
-                    <h6>Follow Me</h6>
-                    <ul class="list-unstyled">
-                        <li><a href="https://twitter.com/shreyasgaonkar" target="_blank">Twitter</a></li>
-                        <li><a href="https://www.facebook.com/shreyas.gaonkar" target="_blank">Facebook</a></li>
-                        <li><a href="https://www.youtube.com/user/lpfireheart" target="_blank">YouTube</a></li>
-                        <li><a href="https://www.linkedin.com/in/shreyasgaonkar" target="_blank">LinkedIn</a></li>
+            <div class="footer-secondary-links">
+                <ul>
+                    <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+                    <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                </ul>
 
-                    </ul>
-                </div><!-- end col-sm-2-->
+                <%--<ul class="footer-social">
+                    <li><a href="javascript:void(0)">
+                        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook" />
+                    </a></li>
+                    <li><a href="javascript:void(0)">
+                        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter" /> 
+                    </a></li>
+                    <li><a href="javascript:void(0)">
+                        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube" />
+                    </a></li>
+                </ul>--%>
+            </div>
+        </footer>
+        <!-- Footer -->
 
-                <div class="col-sm-2">
-                    <h6>Coded by Shreyas Gaonkar</h6>
-                    <!-- <ul class="list-unstyled">
-                         <li><a href="#">Twitter</a></li>
-                         <li><a href="#">Facebook</a></li>
-                         <li><a href="#">GooglePlus</a></li>
+        <!-- All Javascript at the bottom of the page for faster page loading -->
+        <!-- First try for the online version of jQuery-->
+        <script src="http://code.jquery.com/jquery.js"></script>
 
-                     </ul>-->
-                </div><!-- end col-sm-2-->
+        <!-- If no online access, fallback to our hardcoded version of jQuery -->
+        <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
 
+        <!-- Bootstrap JS -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
 
-            </div><!-- End Row-->
-        </div><!-- end container-->
-    </footer>
-    <!-- All Javascript at the bottom of the page for faster page loading -->
-    <!-- First try for the online version of jQuery-->
-    <script src="http://code.jquery.com/jquery.js"></script>
-
-    <!-- If no online access, fallback to our hardcoded version of jQuery -->
-    <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
-
-    <!-- Bootstrap JS -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Custom JS -->
-    <script src="includes/js/script.js"></script>
+        <!-- Custom JS -->
+        <script src="includes/js/script.js"></script>
     </div>
 
 </body>
